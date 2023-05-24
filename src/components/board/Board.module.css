@@ -1,0 +1,52 @@
+.board {
+    background-color: rgba(10, 48, 118, 0.39);
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.39);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 10px;
+    height: 10px;
+}
+
+.snake {
+    background-color: green;
+}
+
+.food {
+    background-color: white;
+}
+
+.head {
+    background-color: orangered;
+}
+
+.options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.options button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.easy {
+    background-color: green;
+}
+
+.normal {
+    background-color: darkgoldenrod;
+}
+
+.hard {
+    background-color: orangered;
+}
+
+.active {
+    transform: scale(0.9);
+    cursor: default !important;
+}
