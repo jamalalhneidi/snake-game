@@ -1,12 +1,5 @@
-# The classic snake game
-
-## Getting Started
-
-```bash
-npm i
-npm run dev
-```
-
-### Built with:
+# The Classic Snake Game
+![alt text](ss.gif)
+## Built with:
 
 - Vite

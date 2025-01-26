@@ -1,5 +1,5 @@
-import styles from './App.module.css'
-import Board from "./components/board/board.jsx";
+import styles from './App.module.css';
+import Board from "./components/board/Board.jsx";
 
 function App() {
     return (
